@@ -22,11 +22,10 @@ cacheSolve <- function(x, ...) {
 	  makeCacheMatrix(x)
 	  if(identical(x,cachex) & !is.null(cacheix){
 		imatrix<-cachix
-		}
+	  }
 	  ELSE 
 	  {
 		imatrix <- solve(x)
 		cacheix <<-imatrix
 	  }
-
-	  }
+}
